@@ -1,3 +1,7 @@
+{% extends "base.html.twig" %}
+{% block title %}Create something New | {{ parent() }} {% endblock %}
+
+{% block body %}
 <h1>{{ title }}</h1>
 
 <div>
@@ -9,3 +13,5 @@
     <li>{{ track.song }} - {{ track.artist}} </li>
      {% endfor %}
 </ul>
+
+{% endblock %}

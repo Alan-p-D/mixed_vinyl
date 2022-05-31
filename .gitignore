@@ -15,3 +15,7 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
+
+###< source files from video ###
+/tutorial/
+###< source files from video ###
